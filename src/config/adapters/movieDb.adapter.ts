@@ -1,9 +1,9 @@
 import {AxiosAdapter} from './http/axios.adapter';
 
 export const movieDbFetcher = new AxiosAdapter({
-  baseURL: '',
+  baseURL: 'https://api.themoviedb.org/3/movie',
   params: {
-    api_key: '66b1cde2da064d720d223aac4ea02ec7',
+    api_key: 'your api key',
     language: 'es',
   },
 });
